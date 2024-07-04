@@ -1,0 +1,8 @@
+ID,NAME,LOCATION,AREA,DEPTH,VOLUME,TYPE,LAT,LON
+001,Aydarkul,Lake in Uzbekistan,4000,80,3000000,Saltwater Lake,40.1167,67.8667
+002,Tudakul,Lake in Uzbekistan,450,10,50000,Freshwater Lake,41.2500,61.7500
+003,Charvak,Lake in Uzbekistan,240,80,600000,Reservoir,41.6500,69.8000
+004,Uchkul,Lake in Uzbekistan,20,3,100,Freshwater Lake,41.1500,66.4000
+005,Termez,Lake in Uzbekistan,15,5,75,Freshwater Lake,37.2500,67.2500
+006,Zarafshan,Lake in Uzbekistan,10,2,50,Freshwater Lake,40.7833,68.2667
+007,Baydarskoye,Lake in Uzbekistan,5,1,25,Freshwater Lake,40.8833,68.3833
