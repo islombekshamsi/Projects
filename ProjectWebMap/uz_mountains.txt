@@ -1,8 +1,0 @@
-ID,NAME,LOCATION,STATUS,ELEV,TYPE,TIMEFRAME,LAT,LON
-001,Khazret Sultan,Uzbekistan-Kazakhstan,Active,4643.000000000000000,Mountain,Present,39.1986,67.4446
-002,Adelung,Uzbekistan,Active,4301.000000000000000,Mountain,Present,41.6500,70.1500
-003,Beshtor,Uzbekistan,Active,4299.000000000000000,Mountain,Present,41.5000,70.0000
-004,Koytendag,Uzbekistan-Turkmenistan,Active,3139.000000000000000,Mountain,Present,37.9833,66.3833
-005,Greater Chimgan,Uzbekistan,Active,3309.000000000000000,Mountain,Present,41.5000,70.0000
-006,Danghara,Uzbekistan,Active,2939.000000000000000,Mountain,Present,40.0000,70.0000
-007,Shokhista,Uzbekistan,Active,3751.000000000000000,Mountain,Present,39.6667,68.5000
