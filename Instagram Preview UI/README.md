@@ -13,7 +13,7 @@ Happy coding!
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/main/Screenshot%202024-08-04%20at%2016.47.07.png?token=GHSAT0AAAAAACVLHJ47AF4BMSBTG23OYDGMZVPNLRQ)
+![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/main/Screenshot%202024-08-04%20at%2016.40.19.png?token=GHSAT0AAAAAACVLHJ46XOGAZ7IGZ2VIPA7IZVP6RSA)
 
 
 ## Tech Stack

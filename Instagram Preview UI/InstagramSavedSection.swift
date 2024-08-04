@@ -3,8 +3,9 @@ import SwiftUI
 struct InstagramSavedSection: View {
     var body: some View {
         let names: [String] = ["Funny", "Inspirational", "Facts", "Educational", "Recipes", "Sports", "Movies", "Music", "Games", "Design", "Books", "University"]
-        let boxColors: [Color] = [Color.blue, Color.green, Color.yellow, Color.red, Color.gray, Color.mint, Color.orange, Color.indigo, Color.teal, Color.white, Color.secondary, Color.pink]
+        let boxColors: [Color] = [Color.blue, Color.green, Color.yellow, Color.red, Color.gray, Color.mint, Color.orange, Color.indigo, Color.teal, Color.white, Color.brown, Color.pink]
         let iconSize: CGFloat = 25.0
+        let footerIcons: [String] = ["house", "magnifyingglass", "plus.app", "movieclapper", "person.crop.circle.fill"]
         ZStack {
             ScrollView(showsIndicators: true){
                 VStack {
@@ -12,10 +13,10 @@ struct InstagramSavedSection: View {
                     Spacer()
                         .frame(height: 60)
                     
-                    LazyVStack{
+                    LazyVStack(){
                             ForEach(0..<6){rowIndex in
                                 ScrollView{
-                                    LazyHStack(spacing: 0){
+                                    LazyHStack(spacing: -15){
                                         ForEach(0..<2){ columnIndex in
                                             // Calculate the index for names array
                                             let Index = rowIndex * 2 + columnIndex
@@ -24,6 +25,7 @@ struct InstagramSavedSection: View {
                                             if Index < names.count {
                                                 VStack(alignment: .leading, spacing: -5) {
                                                     RoundedRectangle(cornerRadius: 9.0)
+                                                        //.stroke(.black, lineWidth: 5)
                                                         .fill(boxColors[Index])
                                                         .frame(width: 160, height: 160)
                                                         .shadow(radius: 5.0)
@@ -41,7 +43,6 @@ struct InstagramSavedSection: View {
                     }
                     .padding(.bottom, 60)
                 }
-                .ignoresSafeArea()
                 .background(Color(UIColor.systemBackground))
             }
             
@@ -71,39 +72,20 @@ struct InstagramSavedSection: View {
                 
                 Spacer()
                 
-                VStack {
+                VStack { // footer
                         HStack(spacing: 0){
-                            Image(systemName: "house")
-                                .resizable()
-                                .foregroundColor(Color.black)
-                                .frame(width: iconSize, height: iconSize)
-                                .bold()
-                            Spacer()
-                                .frame(width: 50)
-                            Image(systemName: "magnifyingglass")
-                                .resizable()
-                                .frame(width: iconSize, height: iconSize)
-                                .bold()
-                            Spacer()
-                                .frame(width: 50)
-                            Image(systemName: "plus.app")
-                                .resizable()
-                                .frame(width: iconSize, height: iconSize)
-                                .bold()
-                            Spacer()
-                                .frame(width: 50)
-                            Image(systemName: "movieclapper")
-                                .resizable()
-                                .frame(width: iconSize, height: iconSize)
-                                .bold()
-                            Spacer()
-                                .frame(width: 50)
+                            ForEach(0..<footerIcons.count){footerIndex in
+                                Image(systemName: footerIcons[footerIndex])
+                                    .resizable()
+                                    .foregroundColor(Color.black)
+                                    .frame(width: iconSize, height: iconSize)
+                                    .bold()
 
-                            Image(systemName: "person.crop.circle")
-                                .resizable()
-                                .foregroundColor(Color.black)
-                                .frame(width: iconSize, height: iconSize)
-                                .bold()
+                                if footerIndex < footerIcons.count - 1 { // Add spacer except after the last icon
+                                    Spacer()
+                                        .frame(width: 50)
+                                }
+                            }
                         }
                         .padding(.horizontal)
                     }
