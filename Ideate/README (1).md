@@ -35,9 +35,9 @@ Python, Swift, C++, Dart, JavaScript, HTML5, CSS3, SQL
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/NotesView.png?token=GHSAT0AAAAAAC7OWPNECPTJDTI3RLOE2CVSZ56NYBA)
+![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/NotesView.png?token=GHSAT0AAAAAAC7OWPNEO4C3TSGCJQV3C53GZ56N64A)
 
-![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/NoteCreationView.png?token=GHSAT0AAAAAAC7OWPNFFY4SEZHGYLXQSFBQZ56NZDA)
+![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/NoteCreationView.png?token=GHSAT0AAAAAAC7OWPNEXCK7CIID272Q2C4IZ56N7FA)
 
 ![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/NoteDescriptionView.png?token=GHSAT0AAAAAAC7OWPNFXFLMRRMWNCJ3YH46Z56NZUQ)
 
