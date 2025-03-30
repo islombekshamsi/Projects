@@ -38,17 +38,7 @@ Python, Swift, C++, Dart, JavaScript, HTML5, CSS3, SQL
 
 ## Screenshots
 
-![App Screenshot]([https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/NotesView.png?token=GHSAT0AAAAAAC7OWPNEO4C3TSGCJQV3C53GZ56N64A](https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/Screenshot%202025-03-30%20at%2017.38.52.png?token=GHSAT0AAAAAADBF6HQ5WNUMS5FZTGODNBQ2Z7JXKSQ))
-
-![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/NoteCreationView.png?token=GHSAT0AAAAAAC7OWPNEXCK7CIID272Q2C4IZ56N7FA)
-
-![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/NoteDescriptionView.png?token=GHSAT0AAAAAAC7OWPNFXFLMRRMWNCJ3YH46Z56NZUQ)
-
-![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/DescriptionView.png?token=GHSAT0AAAAAAC7OWPNFR7S5EWWAZUIODJBIZ56NZ6A)
-
-![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/TasksView.png?token=GHSAT0AAAAAAC7OWPNFNJ5FA64VL4CQVEZ4Z56N2KA)
-
-![App Screenshot](https://raw.githubusercontent.com/islombekshamsi/images/refs/heads/main/TaskAdditionView.png?token=GHSAT0AAAAAAC7OWPNEF3WABMB6OHFGCVBUZ56N2TA)
+Weirdly, it is not showign here although I uploaded a website that is not local. Please check out the uploaded png files for screenshots of UI. Thanks
 
 ## Tech Stack
 
