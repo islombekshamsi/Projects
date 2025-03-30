@@ -63,7 +63,7 @@ struct ContentView: View {
 
                     // Display the appropriate view based on the selected tab
                     if selectedTab == "Tasks" {
-                        calendar(viewModel: calendarViewModel, startupNames: items) // Pass the shared ViewModel
+                        CalendarView(viewModel: calendarViewModel, startupNames: items) // Pass the shared ViewModel
                     } else {
                         List {
                             ForEach(items.indices, id: \.self) { index in
@@ -280,7 +280,7 @@ struct ContentView: View {
                                    }
                                    .frame(maxWidth: .infinity, alignment: .topLeading)
                                    .padding(.top, -45)
-                                   .padding(.horizontal, 5)
+                                   .padding(.horizontal, 5)//
                                }
                                .padding(.top)
                                RoundedRectangle(cornerRadius: 20)
