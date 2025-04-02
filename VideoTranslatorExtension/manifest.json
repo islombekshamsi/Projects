@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Hindi to English Video Translator",
+  "version": "1.0",
+  "description": "Translates Hindi subtitles to English in real-time.",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
