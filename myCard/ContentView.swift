@@ -171,25 +171,25 @@ struct ContentView: View {
                                         // SNAPCHAT
                                         FlipCard(width: 150, height: 80, cornerRadius: 16) {
                                             ZStack {
-                                                Color.white
+                                                Color.snapchatYellow
                                                 HStack(spacing: 8) {
                                                     Text("👻").font(.system(size: 18))
                                                     Text("Snapchat")
                                                         .font(.system(size: 16, weight: .semibold))
-                                                        .foregroundColor(.yellow)
+                                                        .foregroundColor(.black)
                                                 }
                                             }
                                         } back: {
                                             ZStack {
-                                                Color.snapchatYellow
+                                                Color.white
                                                 VStack(spacing: 6) {
                                                     Text("Username")
                                                         .font(.caption)
-                                                        .foregroundColor(.white.opacity(0.85))
+                                                        .foregroundColor(.black.opacity(0.85))
                                                     if editingSnap {
                                                         TextField("@username", text: bindingWithAtPrefix($snapName))
                                                             .font(.system(size: 18, weight: .semibold))
-                                                            .foregroundColor(.white)
+                                                            .foregroundColor(.black)
                                                             .multilineTextAlignment(.center)
                                                             .textInputAutocapitalization(.never)
                                                             .autocorrectionDisabled(true)
@@ -200,7 +200,7 @@ struct ContentView: View {
                                                     } else {
                                                         Text(snapName)
                                                             .font(.system(size: 18, weight: .semibold))
-                                                            .foregroundColor(.white)
+                                                            .foregroundColor(.black)
                                                             .lineLimit(1)
                                                             .minimumScaleFactor(0.8)
                                                             .padding(.horizontal, 10)
@@ -215,7 +215,7 @@ struct ContentView: View {
                                                         } label: {
                                                             Image(systemName: "square.and.pencil")
                                                                 .font(.system(size: 14, weight: .semibold))
-                                                                .foregroundColor(.white)
+                                                                .foregroundColor(.black)
                                                                 .padding(6)
                                                                 .background(Circle().fill(Color.white.opacity(0.15)))
                                                         }
