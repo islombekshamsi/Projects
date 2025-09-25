@@ -50,7 +50,7 @@ struct ContentView: View {
     @State private var editingTelegram = false
     @State private var editingLinkedin = false
 
-    // Which socials are shown
+    // Socials shown 
     @State private var showSnapchat  = true
     @State private var showInstagram = true
     @State private var showTwitter   = true
